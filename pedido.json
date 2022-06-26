@@ -1,0 +1,14 @@
+[
+    {
+        "cuadro":" ./img/lago.jpg",
+        "nombre":"Mapa"
+    },
+    {
+        "cuadro":"./img/lago.jpg",
+        "nombre":"Mapa"
+    },
+    {
+        "cuadro":"./img/lago.jpg",
+        "nombre":"amapa"
+    }
+]

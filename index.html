@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Arte</title>
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+    <header>
+        <h1 id="titulo" >Tienda de Arte</h1>
+        <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+    </header>
+<section>
+    <h4>Consulte la obra de su interes</h4>
+    <input type="text" id="input0">
+    <div id="contenedor"></div>
+
+    <main id="contenedor-productos">
+
+    </main>
+
+    <h2>Obras por encargo</h2>
+
+    <div>
+        <button href="#" id="jsonBTN" > Consulte aqui!</button>
+    </div>
+
+
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+               
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+        </div>
+    </div>
+
+</section>
+<footer>
+    <h5>Redes Sociales</h5>
+</footer>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script  src="stock.js"></script>
+    <script  src="detalleCompra.js"></script>
+    <script  src="principal.js"></script>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+</body>
+</html>
