@@ -1,14 +1,18 @@
 [
     {
-        "cuadro":" ./img/lago.jpg",
+        "cuadro":" ./img/gal3208.jpg",
         "nombre":"Mapa"
     },
     {
-        "cuadro":"./img/lago.jpg",
+        "cuadro":"./img/gal32022.jpg",
         "nombre":"Mapa"
     },
     {
-        "cuadro":"./img/lago.jpg",
+        "cuadro":"./img/gal32024.jpg",
+        "nombre":"amapa"
+    },
+    {
+        "cuadro":"./img/gal32028.jpg",
         "nombre":"amapa"
     }
 ]
